@@ -9,6 +9,9 @@ void setup() {
 
   Serial.println("Initialisiere SD-Karte");   
   SD.begin(10);
+
+
+  
   //if (!SD.begin()) {                                     // Wenn die SD-Karte nicht (!SD.begin) gefunden werden kann, ...
    // Serial.println("Initialisierung fehlgeschlagen!");    // ... soll eine Fehlermeldung ausgegeben werden. ....
    // return;
